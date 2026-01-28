@@ -14,9 +14,9 @@ feature_names = joblib.load("feature_names.pkl")
 # -----------------------------
 # Page Setup
 # -----------------------------
-st.set_page_config(page_title="Churn Prediction Dashboard", page_icon="📉", layout="wide")
+st.set_page_config(page_title="Churn Prediction", page_icon="📉", layout="wide")
 
-st.title("📉 Customer Churn Prediction Dashboard")
+st.title("📉 Customer Churn Prediction")
 st.write("Fill customer details to predict whether the customer will **CHURN** or **STAY**.")
 
 st.markdown("---")
